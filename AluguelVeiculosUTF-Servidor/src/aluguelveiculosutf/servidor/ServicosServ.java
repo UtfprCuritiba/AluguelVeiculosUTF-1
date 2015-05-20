@@ -16,7 +16,7 @@ import java.rmi.registry.Registry;
 public class ServicosServ {
     
     public ServicosServ(){
-            try{
+        try{
             //Cria o registro para receber as referencias, para a porta 1099, local
             Registry referenciaServicoNome = LocateRegistry.createRegistry(1099);
 
